@@ -1,0 +1,88 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "bootstrap": {
+      "name": "bootstrap",
+      "command": "yarn bootstrap",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "clean-install": {
+      "name": "clean-install",
+      "command": "yarn clean-install",
+      "runAtStart": false
+    },
+    "build-all-dev": {
+      "name": "build-all-dev",
+      "command": "yarn build-all-dev",
+      "runAtStart": false
+    },
+    "build-all-prod": {
+      "name": "build-all-prod",
+      "command": "yarn build-all-prod",
+      "runAtStart": false
+    },
+    "inspector": {
+      "name": "inspector",
+      "command": "yarn inspector",
+      "runAtStart": false
+    },
+    "vs-app": {
+      "name": "vs-app",
+      "command": "yarn vs-app",
+      "runAtStart": false
+    },
+    "easter": {
+      "name": "easter",
+      "command": "yarn easter",
+      "runAtStart": false
+    },
+    "rc-app": {
+      "name": "rc-app",
+      "command": "yarn rc-app",
+      "runAtStart": false
+    },
+    "embed-examples": {
+      "name": "embed-examples",
+      "command": "yarn embed-examples",
+      "runAtStart": false
+    },
+    "fetch-bundle": {
+      "name": "fetch-bundle",
+      "command": "yarn fetch-bundle",
+      "runAtStart": false
+    },
+    "expand-bundle": {
+      "name": "expand-bundle",
+      "command": "yarn expand-bundle",
+      "runAtStart": false
+    },
+    "install-bundle": {
+      "name": "install-bundle",
+      "command": "yarn install-bundle",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "yarn install": {
+      "name": "yarn install",
+      "command": "yarn install",
+      "runAtStart": true
+    }
+  }
+}
